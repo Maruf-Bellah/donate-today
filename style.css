@@ -1,0 +1,81 @@
+body {
+    font-family: 'Kanit', sans-serif;
+    margin: 0;
+}
+
+#banner {
+    color: white;
+    background-image: url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: large;
+    text-align: center;
+    padding: 70px 0px;
+}
+
+#banner h1 {
+    font-size: 50px;
+}
+
+.banner-text {
+    width: 55%;
+    margin: 0px auto;
+}
+
+@media screen and (max-width: 600px) {
+    .banner-text {
+        width: 90%;
+        padding: 10px;
+
+    }
+}
+
+.button {
+    text-decoration: none;
+    border: 2px solid wheat;
+    padding: 10px 40px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    font-weight: 500;
+    margin: 20px;
+}
+
+.donate-today {
+    text-align: center;
+    margin: 15px 0px;
+}
+
+.taka {
+    display: inline-block;
+    padding: 10px 40px;
+    background-color: rgb(243, 232, 230);
+    border-radius: 10px;
+    margin: 35px 0px 0px 35px;
+    font-size: 25px;
+}
+
+#donate-text {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#donate-text h1 {
+    font-size: 35px;
+
+}
+
+#amount {
+    padding-top: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    #donate-text {
+        width: 90%;
+        padding: 10px;
+
+    }
+}
+
+hr {
+    margin: 50px;
+}
